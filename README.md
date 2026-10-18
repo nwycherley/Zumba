@@ -1,24 +1,47 @@
-# Zumba with Hannah — GitHub Pages
+# Zumba with Hannah
 
-## Upload these files
-- `index.html`
-- `style.css`
-- `script.js`
-- `zumba-with-hannah-logo.jpg`
-- `design-preview.png` (optional reference preview)
+This project is a colourful, mobile-friendly landing page for a community Zumba class in Runcorn. The site promotes a welcoming, all-abilities fitness experience and encourages visitors to get in touch via WhatsApp.
 
-Keep `index.html` at the repository root.
+## About the website
 
-## Publish
-1. Create a repository on https://github.com/ (e.g. `zumba-with-hannah`).
-2. Upload the files above to the repository root.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select branch `main` and folder `/(root)`, then save.
-6. Wait for the published URL to appear on the Pages settings screen. It will usually be `https://YOUR-USERNAME.github.io/zumba-with-hannah/`.
+The website includes:
+- a bold hero section with the Zumba with Hannah branding
+- clear class details for location, time, and price
+- a short introduction explaining the community-focused vibe
+- benefits of joining the class
+- social media links for Facebook, Instagram, and TikTok
+- a strong call-to-action to message Hannah directly
 
-## Notes
-- WhatsApp buttons use the flyer number `07725 165259`, in international format in the link.
-- The class start date is marked as `(Date TBC)` rather than inventing a date.
-- The design uses the uploaded Zumba with Hannah logo and the requested hot pink, lime green, black and cream palette.
-- Fonts load from Google Fonts. The logo is included locally.
+## Project files
+- `index.html` — page structure and content
+- `style.css` — full visual design and responsive styling
+- `script.js` — small interactive enhancements such as the mobile menu and footer year
+- `zumba-with-hannah-logo.jpg` — local brand image used across the site
+
+## Run locally
+
+Open `index.html` directly in a browser, or serve the project locally with:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then visit:
+
+```text
+http://localhost:8000
+```
+
+## Deployment
+
+This site is designed to be hosted on GitHub Pages or any static hosting service.
+
+1. Push the project files to a GitHub repository.
+2. Open the repository settings.
+3. Go to Pages.
+4. Choose the branch and root folder for deployment.
+5. Save the settings and wait for the live URL.
+
+## Brand details
+
+The website reflects the current brand direction for Zumba with Hannah, using a bright pink, lime, black, and cream palette with a fun, energetic style that suits a fitness and dance offering.
